@@ -73,7 +73,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.shy.data.structure.ShyDataStructureWebApplication</mainClass>
+                    <mainClass>com.shy.data.structure.App</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>

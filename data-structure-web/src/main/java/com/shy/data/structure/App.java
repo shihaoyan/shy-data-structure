@@ -6,10 +6,10 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
 @EnableAspectJAutoProxy
-public class ShyDataStructureWebApplication {
+public class App {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShyDataStructureWebApplication.class, args);
+        SpringApplication.run(App.class, args);
     }
 
 }
