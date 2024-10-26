@@ -40,7 +40,6 @@ public class SortController {
     @RequestMapping("/sort")
     @SortVerify
     public Result<Map<String, Object>> selectSort(Integer type, Integer length, Integer numberStart, Integer numberEnd) {
-        int i = 1 / 0;
         // 默认排序类型为1
         type = type == null ? 1 : type;
         // 默认数组长度为10
